@@ -21,6 +21,7 @@ const arrayForColor = [
 btn.addEventListener('click', ()=> {
   document.body.style.backgroundColor = arrayForColor[randomNumber()];
   textForColor.textContent = arrayForColor[randomNumber()];
+  textForColor.style.color = arrayForColor[randomNumber()];
 
 
 })
