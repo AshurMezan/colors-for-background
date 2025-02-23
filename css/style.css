@@ -58,3 +58,9 @@ body {
     background-color: black;
     color: azure;
 }
+
+button {
+    font-family: inherit; /* Наследует шрифт от body */
+    font-weight: inherit; /* Наследует вес шрифта от body */
+    font-style: inherit; /* Наследует стиль шрифта от body */
+}
